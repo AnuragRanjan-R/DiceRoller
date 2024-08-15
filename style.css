@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    background-color: #C13CE2;
+}
+.roll{
+    margin-top: 200px;
+    margin-left: 42%;
+    display: flex;
+}
+#dice{
+    align-content: center;
+    color: black;
+    text-align: center;
+    border: solid wheat;
+    font-size: 500%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 15%;
+}
+#click{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border: solid rgb(230, 251, 73);
+    border-radius: 15px;
+    background-color: #5DE23C;
+    margin-top: 300px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+#click:hover{
+    background-color:  #b5ffa2;
+}

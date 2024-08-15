@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="roll">
+   
+    <button id="click">Click</button>
+    <label id="dice"></label>
+    </div>
+
+
+    <script>
+        const click = document.getElementById("click");
+        const dice = document.getElementById("dice");
+        const maxN = 6;
+        const minN = 1;
+        let number;
+
+        click.onclick = function(){
+            number = Math.floor( Math.random() * maxN) + minN;
+            dice.textContent = number;
+        console.log(number);
+        };
+    </script>
+</body>
+</html>
